@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="requester" table="x_528469_wish_list_wish_item">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="display_name" table="x_528469_wish_list_wish_item">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>encode_utf8=false</attributes>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Requester</column_label>
+        <column_label>Display name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,20 +22,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>requester</element>
+        <element>display_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>32</max_length>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>300</max_length>
         <name>x_528469_wish_list_wish_item</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
-        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -47,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-11-25 07:33:46</sys_created_on>
-        <sys_id>47bcdbf707e02010b340f03c7c1ed0b3</sys_id>
+        <sys_created_on>2020-11-26 02:33:57</sys_created_on>
+        <sys_id>0db12fcc073c2010b340f03c7c1ed05d</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Requester</sys_name>
+        <sys_name>Display name</sys_name>
         <sys_package display_value="Wish List" source="x_528469_wish_list">dd2c9fb707e02010b340f03c7c1ed05d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wish List">dd2c9fb707e02010b340f03c7c1ed05d</sys_scope>
-        <sys_update_name>sys_dictionary_x_528469_wish_list_wish_item_requester</sys_update_name>
+        <sys_update_name>sys_dictionary_x_528469_wish_list_wish_item_display_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-26 02:37:42</sys_updated_on>
+        <sys_updated_on>2020-11-26 02:33:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
